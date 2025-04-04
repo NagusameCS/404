@@ -6,13 +6,6 @@ Analyze and explain obfuscated code by breaking down its actual functionality an
 ## Problem Statement
 Given an obfuscated program, provide a clear explanation of what the program actually does, including its true purpose, inputs, outputs, and algorithms used. You may choose one of the options provided or for a different preffered language contact us.
 
-### Requirements
-- Pattern identification
-- Algorithm recognition
-- Control flow mapping
-- Hidden functionality detection
-- Security implication analysis
-
 ### Constraints
 1. No automated deobfuscation tools
 2. Manual analysis only
