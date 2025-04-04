@@ -317,3 +317,13 @@ d = gets.to_i
 operations = ComplexOperations.new(a, b, c, d)
 operations.display_result
 ```
+
+## Success Criteria
+
+- The explanation is structured, well-articulated, and reflects careful consideration of the entire program.
+- Goes beyond surface-level understanding, exploring patterns, structure, and behavior of the code.
+- Captures all aspects of what the code does, including conditions, loops, recursion, and data transformations.
+- Provides a coherent interpretation of how various inputs affect the program’s outcome.
+- Identifies potential limitations or anomalies in the program, including handling of extreme or unexpected inputs.
+- Acknowledges any data handling, randomization, caching, or recursion implications from a system safety perspective.
+- Demonstrates understanding based purely on reading and reasoning, with no reliance on running the code.
