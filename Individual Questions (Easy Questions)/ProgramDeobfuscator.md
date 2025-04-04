@@ -37,7 +37,7 @@ console[_0xabc('2')](
     window[_0xabc('3')](_0xabc('1')) 
 );
 ```
-### Java Script
+### Java Script Option
 ```js
 var _0x4e3a = [
     'ZGVjb2RlZA==',
@@ -87,7 +87,7 @@ getattr(__builtins__, _0xabc('2'))(
     getattr(base64, _0xabc('3'))(_0xabc('1')).decode()
 )
 ```
-### C++
+### C++ Option
 ```cpp
 #include <iostream>
 #include <string>
