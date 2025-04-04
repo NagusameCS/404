@@ -41,7 +41,7 @@ Given a program (in any language), provide a comprehensive explanation of its fu
     "Strassen's algorithm",
     "Cache optimization"
   ],
-  "data_flow": {
+  "data_flow": [
     "inputs": ["matrix A", "matrix B"],
     "transformations": ["split", "multiply", "combine"],
     "outputs": ["result matrix"]
