@@ -1,4 +1,4 @@
-# JSON Verifier and Validator
+w# JSON Verifier and Validator
 
 ## Description
 Create a JSON validation engine that checks both syntax and schema compliance.
@@ -19,9 +19,9 @@ Develop a program that validates JSON documents for syntax correctness and schem
 3. Clear error messages
 4. Support all JSON data types
 
-## Input/Output Examples
+## Input Example
 ```json
-// Input Example
+
 {
   "json": "{\"name\": \"test\", \"values\": [1,2,3]}",
   "schema": {
@@ -32,8 +32,11 @@ Develop a program that validates JSON documents for syntax correctness and schem
     }
   }
 }
+```
 
-// Output Example
+## Output Example
+```json
+## Input/Output Examples
 {
   "valid": true,
   "errors": [],
@@ -41,22 +44,11 @@ Develop a program that validates JSON documents for syntax correctness and schem
 }
 ```
 
-## Test Cases
-1. Syntax Validation:
-   ```json
-   Input: "{\"key\": value}"
-   Expected: {"valid": false, "errors": ["Missing quotes around string value"]}
-   ```
 
-2. Schema Validation:
-   ```json
-   Input: {"age": "25"}
-   Schema: {"age": {"type": "number"}}
-   Expected: {"valid": false, "errors": ["Type mismatch: expected number"]}
-   ```
-
-## Performance Requirements
+## Success Criteria
+- Syntax and Schema Validation is Correct
+- Support for Nested Structures
+- High level / Detailed Error Reporting
 - Parse 1MB JSON under 100ms
 - Validate against complex schemas under 250ms
-- Memory usage under 50MB for 10MB files
 - No use of artificial intelligence or machine learning algorithms should be involved in the creation of your program
