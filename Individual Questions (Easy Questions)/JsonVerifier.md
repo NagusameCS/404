@@ -36,7 +36,7 @@ Develop a program that validates JSON documents for syntax correctness and schem
 
 ## Output Example
 ```json
-## Input/Output Examples
+
 {
   "valid": true,
   "errors": [],
