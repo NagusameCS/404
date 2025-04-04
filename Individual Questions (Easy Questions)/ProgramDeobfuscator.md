@@ -22,8 +22,8 @@ Given an obfuscated program, provide a clear explanation of what the program act
 ### Java Option
 ```Java
 var _0x4e3a = [
-    'ZGVjb2RlZA==', // b64
-    'SGVsbG8sIFdvcmxkIQ==', // b64
+    'ZGVjb2RlZA==',
+    'SGVsbG8sIFdvcmxkIQ==',
     'log',
     'atob'
 ];
@@ -33,15 +33,15 @@ var _0x4e3a = [
         while (--times) arr.push(arr.shift());
     };
     rotate(++count);
-}(_0x4e3a, 0x12)); // rotates array 0x13 times
+}(_0x4e3a, 0x12));
 
 const _0xabc = function(indexStr) {
-    var idx = parseInt(indexStr, 36); // interpret index as base-36
+    var idx = parseInt(indexStr, 36);
     return _0x4e3a[idx];
 };
 
 console[_0xabc('2')](
-    window[_0xabc('3')](_0xabc('1')) // atob('SGVsbG8sIFdvcmxkIQ==') => Hello, World!
+    window[_0xabc('3')](_0xabc('1')) 
 );
 ```
 ### Java Script
@@ -74,8 +74,8 @@ console[_0xabc('2')](
 import base64
 
 _0x4e3a = [
-    'ZGVjb2RlZA==',  # 'decoded'
-    'SGVsbG8sIFdvcmxkIQ==',  # 'Hello, World!'
+    'ZGVjb2RlZA==', 
+    'SGVsbG8sIFdvcmxkIQ==', 
     'print',
     'b64decode'
 ]
@@ -87,11 +87,9 @@ def rotate(arr, count):
 
 rotate(_0x4e3a, 0x13)
 
-# Simulated obfuscated index lookup
 def _0xabc(index_str):
     return _0x4e3a[int(index_str, 36)]
 
-# Call print(base64.b64decode(...).decode())
 getattr(__builtins__, _0xabc('2'))(
     getattr(base64, _0xabc('3'))(_0xabc('1')).decode()
 )
@@ -133,20 +131,18 @@ int base36_to_int(const std::string& s) {
 
 int main() {
     std::vector<std::string> _0x4e3a = {
-        "ZGVjb2RlZA==", // "decoded"
-        "SGVsbG8sIFdvcmxkIQ==", // "Hello, World!"
+        "ZGVjb2RlZA==",
+        "SGVsbG8sIFdvcmxkIQ==", 
         "cout",
         "base64_decode"
     };
 
-    // Rotate
     std::rotate(_0x4e3a.begin(), _0x4e3a.begin() + (0x13 % _0x4e3a.size()), _0x4e3a.end());
 
     auto _0xabc = [&](const std::string &s) -> std::string {
         return _0x4e3a[base36_to_int(s)];
     };
 
-    // Simulated indirect call to std::cout
     std::cout << base64_decode(_0xabc("1")) << std::endl;
 
     return 0;
