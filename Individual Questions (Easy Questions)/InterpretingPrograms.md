@@ -4,7 +4,7 @@
 Create a detailed analysis of what a given program does by interpreting its code and behavior.
 
 ## Problem Statement
-Given a program (in any language), provide a comprehensive explanation of its functionality, inputs, outputs, and behavioral patterns.
+Given a program below, provide a comprehensive explanation of its functionality, inputs, outputs, and behavioral patterns. If you prefer a different language not available here please contact us. Choose only one.
 
 ### Constraints
 1. No program execution allowed
