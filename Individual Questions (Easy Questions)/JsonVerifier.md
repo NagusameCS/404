@@ -1,4 +1,4 @@
-w# JSON Verifier and Validator
+# JSON Verifier and Validator
 
 ## Description
 Create a JSON validation engine that checks both syntax and schema compliance.
